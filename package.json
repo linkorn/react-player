@@ -17,8 +17,7 @@
     "preversion": "npm run lint",
     "version": "auto-changelog -p && npm run build:lib && npm run build:dist && npm run build:standalone && git add CHANGELOG.md dist",
     "preinstall": "npm run build:lib && npm run build:dist",
-    "prepublishOnly": "npm run build:lib && npm run build:dist",
-    "postpublish": "npm run clean"
+    "prepublishOnly": "npm run build:lib && npm run build:dist"
   },
   "repository": {
     "type": "git",
