@@ -57,12 +57,10 @@ export class RuTube extends Component {
       height: '100%',
       ...this.props.style
     }
-
     return (
       <iframe
         ref={this.ref}
-        src="https://rutube.ru/play/embed/86d910d5ee1b77bbf4fe40a7acf2d622/"
-        // src={`https//rutube.ru/play/embed/${url}`}
+        src={`https://rutube.ru/play/embed/${url}`}
         style={style}
         frameBorder={0}
       />
