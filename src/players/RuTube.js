@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 
-
-//https://rutube.ru
-
 export class RuTube extends Component {
   static displayName = 'SoundCloud'
   static canPlay = url => url.startsWith('https://rutube.ru')
